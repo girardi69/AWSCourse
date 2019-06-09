@@ -20,3 +20,16 @@ exports.handler = async (event) => {
     return await db.put(params).promise();  
 };  
 
+# Create a DynamoDB Table DynamoDBTutorial  
+  
+# Create a IAM Policy and a IAM Role
+IAM Policies  
+Name the policy put-item-dynamodb-tutorial  
+Edit the policy with Visual Editor  
+Service: DynamoDB  
+Actions: Write, select PutItem  
+Resources: Select arn:aws:dynamodb:eu-west-1:839972072690:table/DynamoDBTutorial  
+
+# Test the Lambda Function
+In Execution Role, choose "Use an existing role", "dynamoDBTutorial"  
+Test with a sample test event  
