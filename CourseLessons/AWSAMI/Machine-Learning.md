@@ -13,8 +13,8 @@
 
 ssh -L localhost:8888:localhost:8888 -i GirardiKeyPairCTO.pem ubuntu@ec2-52-212-202-91.eu-west-1.compute.amazonaws.com  
 ssh -i "GirardiKeyPairCTO.pem" ubuntu@ec2-52-212-202-91.eu-west-1.compute.amazonaws.com  
-
-## Use the "connect" option on the instance to shortcut the instance dns name c2-52-212-202-91.eu-west-1.compute.amazonaws.com  
+  
+Use the "connect" option on the instance to shortcut the instance dns name c2-52-212-202-91.eu-west-1.compute.amazonaws.com  
 
 
 ## Terminal Configuration
