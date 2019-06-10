@@ -68,4 +68,4 @@ console.log("Node.js is listening on port 8080");
 
 > Make sure the security group applied to your EC2 instance allows inbound traffic to port 8080 !
 
-
+ 
