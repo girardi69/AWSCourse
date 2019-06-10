@@ -8,3 +8,4 @@ Port Number:       22
 Modifica Impostazioni  
 Connessione SFTP  
 Aggiungi File Chiave .ppk  
+ 
